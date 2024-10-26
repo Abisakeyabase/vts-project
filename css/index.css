@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav-ul{
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+#nav-ul li{
+    font-size: 22px;
+}
+#loginbtn{
+    border: 1px solid rgba(0, 0, 0, 0.644);
+    color: rgb(25, 135, 84) !important;
+    font-size: 22px;
+}
+#logoimg{
+    /* background-color: rgb(25, 135, 84); */
+    background: transparent;
+}
+/* ----------banner------------------ */
+.banner-div{
+    width: 100%;
+}
+.banner-div img{
+    width: 100%;
+    height: 450px;
+}
+/* -------------------------------------------- */
+#animation-container {
+    position: relative;
+}
+
+#moving-image {
+    width: 150px; /* Adjust size as needed */
+    animation: moveUpDown 4s ease-in-out infinite; /* Adjust duration for speed */
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0); /* Start position */
+    }
+    50% {
+        transform: translateY(-10px); /* Move up */
+    }
+    100% {
+        transform: translateY(0); /* Move back down */
+    }
+}
+.container-2{
+    width: 100%;
+    margin-top: 2px;
+}
+.container2-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container2-head h1{
+    width: 100%;
+    padding: 5px;
+    letter-spacing: 2px;
+    color: white;
+    background-color:rgb(25, 135, 84);
+    font-size: 28px;
+    font-weight: 800;
+}
+.cont2-row{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.cont2-col{
+    width: 15%;
+    border: 1px solid rgb(25, 135, 84);
+    border-radius: 5px;
+    /* height: 240px; */
+    /* padding: 10px; */
+}
+.cont2-col-imgdiv{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+.cont2-col-imgdiv img{
+    width: 100%;
+}
+.cont2-col h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    /* padding: 3px; */
+    background-color: rgb(25, 135, 84);
+    color: white;
+    height: 60px;
+}
+.cont2{
+    margin-top: 50px;
+}
+.cont{
+    margin-bottom: 50px;
+}
+/* --------------whatsapp------------------- */
+
+.whats-div i{
+    position: fixed;
+    font-size: 50px;
+    top: 85%;
+    left: 95%;
+    background-color: rgb(9, 173, 9);
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
+.whats-div a span{
+    position: fixed;
+    top: 75%;
+    left: 98%;
+    color: rgb(177, 0, 0);
+    font-size: 80px;
+    outline: none;
+    border: none;
+}
+  /* ---------------------course section--------- */
+  .cor-container{
+    width: 100%;
+    margin-top: 30px;
+}
+.cor-container-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cor-container-head h1{
+    width: 100%;
+    padding: 5px;
+    letter-spacing: 2px;
+    color: white;
+    background-color:rgb(25, 135, 84);
+    font-size: 28px;
+    font-weight: 800;
+}
+.cor-row{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+.cor-col{
+    width: 23%;
+    margin: auto;
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+
+}
+.cor-col:hover{
+    box-shadow: 5px 5px 13px 3px rgba(0, 0, 0, 0.877);
+}
+.cor-col-imgdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 230px;
+
+}
+.cor-col-imgdiv img{
+    width: 90%;
+    padding: 20px;
+}
+/* .cor-col-imgdiv img:hover{
+    padding: 0;
+    transition: 1s;
+} */
+.cor-col-detail{
+    height: 150px;
+    width: 100%;
+    display: block;
+    background-color: rgba(203, 208, 236, 0.493);
+    color: rgba(0, 0, 0, 0.767);
+}
+.cor-col-detail h1{
+    height: 60px;
+    /* border: 1px solid black; */
+width: 100%;
+margin: auto;
+font-size: 18px;
+text-transform: capitalize;
+font-weight: 800;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.cor-col-detail h2{
+    height: 35px;
+    /* border: 1px solid black; */
+    width: 100%;
+margin: auto;
+font-size: 22px;
+font-weight: 1000;
+text-transform: uppercase;
+padding: 3px;
+margin-top: 5px;
+}
+.cor-col-detail h2 span i{
+    color: rgb(207, 114, 8);
+}
+
+.cor-col-detail h3{
+    height: 40px;
+    /* border: 1px solid black; */
+    width: 100%;
+margin: auto;
+font-size: 24px;
+font-weight: 1000;
+text-transform: uppercase;
+padding: 3px;
+    color: rgb(9, 173, 9);
+}
+.cor-col-detail h3 span{
+    font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+color: rgb(156, 14, 14);
+text-decoration: line-through;
+margin-left: 10px;
+}
+/* -----------------------------troop section------------------ */
+.trop-container{
+    width: 100%;
+    margin-top: 50px;
+    /* position:relative; */
+    
+}
+.trop-row{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+.trop-col{
+    width: 100%;
+   display: block;
+   /* border: 1px solid rgba(0, 0, 0, 0.473); */
+   box-shadow: 1px 1px 10px black;
+   margin-left: 20px;
+   border-radius: 10px;
+
+}
+
+.image-container {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+}
+
+.hover-image {
+    width: 100%;
+    display: block;
+    padding: 5px;
+    /* padding: 10px; */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    padding: 3px;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    text-align: start;
+    padding: 10px;
+}
+.trop-role{
+    width: 100%;
+    padding: 3px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(25, 135, 84);
+    color: white;
+    /* border: 1px solid black; */
+}
+.text-name{
+    color: white;
+    font-size: 28px;
+font-weight: 800;
+}
+.text-role{
+    color: white;
+    font-size: 22px;
+}
+.text i{
+    color: rgb(219, 219, 231);
+    background-color: rgba(255, 255, 255, 0.39);
+    font-size: 20px;
+    padding: 3px;
+}
+
+/* ------------------footer------------ */
+.footer{
+    width: 100%;
+    background-color:rgb(25, 135, 84) ;
+    color: white;
+    margin-top: 30px;
+}
+.footer-row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-col{
+    width: 25%;
+    /* border: 1px solid black; */
+}
+.footer-col img{
+    width: 80%;
+    margin-top: 80px;
+}
+
+
+
+
+
